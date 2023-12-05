@@ -84,7 +84,9 @@ We will store our trained machine learning models and the predicted outputs alon
 
 ## Figure 7- ROC Curve of XGBoost.
 
-## Code- https://github.com/rahulsatoskar/Credit-Card-Transactions-Fraud-Detection.git
+## Code 
+Code for this project is stored in the Project_Code folder in this GitHub repository
+## Github Repository Link- https://github.com/rahulsatoskar/Credit-Card-Transactions-Fraud-Detection.git
 
 
 
