@@ -42,6 +42,12 @@ The data can be considered high-quality data as the data is free from any missin
 The data is also highly imbalanced which can be considered normal in this case as we would expect the fraudulent transactions to be minimal compared to the non-fraudulent transactions.
 The data is also accurate as the values in each of the respective columns are what one would usually expect and there are no unusual values. The data is also complete and there are no missing values.
 
+## Data Transformation Models used
+
+We are fetching the Credit Card Transactions Fraud Detection Dataset in batch using the Kaggle API. For extracting data from Kaggle we need to use the Kaggle API credentials. Detailed steps for extracting data using the Kaggle API are explained in the link below.
+Link- https://technowhisp.com/kaggle-api-python-documentation/
+
+
 
 
 
