@@ -24,6 +24,7 @@ Link https://github.com/namebrandon/Sparkov_Data_Generation
 
 ## Pipeline / Architecture
 
+Data Pipeline used- Batch Ingestion Machine Learning and Visualization Pipeline.
 - Cloud - [**Amazon Web Services**](https://aws.amazon.com/free/?gclid=CjwKCAiAjrarBhAWEiwA2qWdCObCd_owlFH0urkD8Ek2df-o9_z27R7Eh_47HYXaXqcxAFw8DrpoIRoCGLEQAvD_BwE&trk=fce796e8-4ceb-48e0-9767-89f7873fac3d&sc_channel=ps&ef_id=CjwKCAiAjrarBhAWEiwA2qWdCObCd_owlFH0urkD8Ek2df-o9_z27R7Eh_47HYXaXqcxAFw8DrpoIRoCGLEQAvD_BwE:G:s&s_kwcid=AL!4422!3!432339156150!e!!g!!aws!1644045032!68366401852)
 - Orchestration - [**Airflow**](https://airflow.apache.org)
 - Transformation - [**Pandas**](https://pandas.pydata.org/)
@@ -31,6 +32,7 @@ Link https://github.com/namebrandon/Sparkov_Data_Generation
 - Data Warehouse - [**Amazon S3**](https://aws.amazon.com/pm/serv-s3/?gclid=CjwKCAiAjrarBhAWEiwA2qWdCMeSmoX4RDFT2fz97d6LdpX5TjAPMLhbgXLYGNgEjSNORKGj7h9l7BoCzZMQAvD_BwE&trk=fecf68c9-3874-4ae2-a7ed-72b6d19c8034&sc_channel=ps&ef_id=CjwKCAiAjrarBhAWEiwA2qWdCMeSmoX4RDFT2fz97d6LdpX5TjAPMLhbgXLYGNgEjSNORKGj7h9l7BoCzZMQAvD_BwE:G:s&s_kwcid=AL!4422!3!536452728638!e!!g!!aws%20s3!11204620052!112938567994#Learn_More_About_Amazon_S3)
 - Data Visualization - [**Matplotlib**](https://matplotlib.org/)
 - Language - [**Python**](https://www.python.org)
+- Machine Learning library - [**Scikit-learn**](https://scikit-learn.org/stable/)
 
 
 
