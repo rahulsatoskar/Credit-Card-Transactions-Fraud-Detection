@@ -2,14 +2,17 @@
 
 Data Engineering project using batch ingestion and ML pipeline to detect whether a transaction is false or not 
 
+
 ## Title
 
 Credit Card Transactions Fraud Detection using Batch Ingestion and Machine Learning Pipeline.
+
 
 ## Project’s function
 
 As e-commerce and Fintech boom, these systems must be as robust as possible. In countries with high credit card usage, particularly the US credit card companies should be able to distinguish fraudulent vs genuine transactions in real time with high precision so that customers are not charged for fraudulent transactions.
 This project will use a simulated credit card transaction dataset using Sparkov extracted using a Kaggle API using batch ingestion. A data pipeline will be used to process this data and suitable transformations on the data will be done. Finally, a machine learning pipeline will be used to classify a transaction as Fraudulent or Genuine. We will plot a confusion matrix and ROC curve and display performance metrics like Accuracy, Precision, Recall, F1 score, and AUC to see how well each of the machine learning models used is performing on our dataset.
+
 
 ## Dataset
 
@@ -21,6 +24,7 @@ This data was generated using Sparkov Data Generation
 GitHub tool created by Brandon Harris.
 
 Link https://github.com/namebrandon/Sparkov_Data_Generation
+
 
 ## Pipeline / Architecture
 
@@ -35,12 +39,14 @@ Data Pipeline used- Batch Ingestion with Machine Learning and Visualization Pipe
 - Language - [**Python**](https://www.python.org)
 - Machine Learning library - [**Scikit-learn**](https://scikit-learn.org/stable/)
 
+
 ## Data Quality Assessment
 
 Data_Lake_EDA.ipynb in the Project_Code folder covers the Exploratory Data Analysis (EDA) of the dataset in detail. The Credit Card Transactions Fraud Detection Dataset is a high-quality dataset and the following points support this argument which are also covered in the EDA done in Data_Lake_EDA.ipynb file.
 The data can be considered high-quality data as the data is free from any missing data, null values, and inconsistent data. The data generally does not have extreme outliers. There are outlier points in the "amt" column which can be considered normal as transaction amounts depend on person to person.
 The data is also highly imbalanced which can be considered normal in this case as we would expect the fraudulent transactions to be minimal compared to the non-fraudulent transactions.
 The data is also accurate as the values in each of the respective columns are what one would usually expect and there are no unusual values. The data is also complete and there are no missing values.
+
 
 ## Data Transformation Models used
 
@@ -51,6 +57,7 @@ Link- https://technowhisp.com/kaggle-api-python-documentation/
 The raw data is extracted using the Kaggle API and loaded into the Data Lake which is an AWS S3 bucket. Next, we perform Exploratory Data Analysis (EDA) on the extracted data and perform data cleaning on the data in the Data lake which includes getting rid of irrelevant columns amongst others, and pushing it to the Data Warehouse.   
 
 Next, we perform featurization on the data in the Data Warehouse which includes one hot encoding for categorical features Standard scaling for numerical features, and feature extraction where we form new features from the existing features. As our data is highly imbalanced with fraudulent transactions being in the minority class and fraudulent transactions being in the majority class we use SMOTE which is an oversampling technique that generates synthetic samples from the minority class, After this step, we train classification algorithms like Decision Trees, Random Forests, and XGBoost on our data after feature engineering. Finally, we use our trained machine learning models to make predictions on the test data and we can predict whether the transaction is fraudulent or genuine. From the predictions, we can see how well our machine learning models perform on the test data by using plots of the confusion matrix and ROC curve and performance metrics like Accuracy, Precision, Recall, F1 score, and AUC.
+
 
 ## Infographic
 
@@ -84,10 +91,12 @@ We will store our trained machine learning models and the predicted outputs alon
 
 ## Figure 7- ROC Curve of XGBoost.
 
+
 ## Code 
 Code for this project is stored in the Project_Code folder in this GitHub repository
 
 ## Github Repository Link- https://github.com/rahulsatoskar/Credit-Card-Transactions-Fraud-Detection.git
+
 
 ## Thorough Investigation
 
