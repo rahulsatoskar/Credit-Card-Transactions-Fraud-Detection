@@ -37,6 +37,15 @@ Data Pipeline used- Batch Ingestion with Machine Learning and Visualization Pipe
 
 ## Data Quality Assessment
 
+The Credit Card Transactions Fraud Detection Dataset is a high-quality dataset and the following points support this argument. Data_Lake_EDA.ipynb in the Project_Code folder covers the Exploratory Data Analysis of the dataset in detail.
+The data can be considered high-quality data as the data is free from any missing data, null values, and inconsistent data. The data generally does not have extreme outliers. There are outlier points in the "amt" column which can be considered normal as transaction amounts depend on person to person.
+The data is also highly imbalanced which can be considered normal in this case as we would expect the fraudulent transactions to be minimal compared to the non-fraudulent transactions.
+
+
+
+
+
+
 
 
 
