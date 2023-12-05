@@ -62,12 +62,30 @@ We will store our trained machine learning models and the predicted outputs alon
 
 ![image](https://github.com/rahulsatoskar/Credit-Card-Transactions-Fraud-Detection/assets/96548287/4f3eed88-b615-44d1-b3f5-9c2f2b68b99c)
 
-
 ## Figure 2- Confusion Matrix of Decision Tree.
 
 ![image](https://github.com/rahulsatoskar/Credit-Card-Transactions-Fraud-Detection/assets/96548287/7630fc20-9dd8-427e-9966-803a4bc8ac18)
 
 ## Figure 3- ROC Curve of Decision Tree.
+
+![image](https://github.com/rahulsatoskar/Credit-Card-Transactions-Fraud-Detection/assets/96548287/34bd6ec3-49fe-4334-a202-bc6bfc3b6653)
+
+## Figure 4- Confusion Matrix of Random Forest.
+
+![image](https://github.com/rahulsatoskar/Credit-Card-Transactions-Fraud-Detection/assets/96548287/9e0f0729-8d27-44f6-9e23-aa08f6db9353)
+
+## Figure 5- ROC Curve of Random Forest.
+
+![image](https://github.com/rahulsatoskar/Credit-Card-Transactions-Fraud-Detection/assets/96548287/6c309aa8-214c-444b-83ba-763a28bee54f)
+
+## Figure 6- Confusion Matrix of XGBoost.
+
+![image](https://github.com/rahulsatoskar/Credit-Card-Transactions-Fraud-Detection/assets/96548287/82ea28ee-1eb5-48d3-b1d4-56afdedb5657)
+
+## Figure 7- ROC Curve of XGBoost.
+
+
+
 
 
 
