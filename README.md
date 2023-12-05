@@ -35,5 +35,9 @@ Data Pipeline used- Batch Ingestion with Machine Learning and Visualization Pipe
 - Language - [**Python**](https://www.python.org)
 - Machine Learning library - [**Scikit-learn**](https://scikit-learn.org/stable/)
 
+## Data Quality Assessment
+
+
+
 
 
