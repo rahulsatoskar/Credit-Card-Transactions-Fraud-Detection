@@ -56,7 +56,7 @@ Next, we perform featurization on the data in the Data Warehouse which includes 
 
 ![image](https://github.com/rahulsatoskar/Credit-Card-Transactions-Fraud-Detection/assets/96548287/65cabd8d-f2d9-4e1f-a527-fb251bbc5542)
 
-Picture Credits- Dr.Nektara Tryfona Virginia Tech
+#Picture Credits- Dr.Nektara Tryfona Virginia Tech
 
 
 
