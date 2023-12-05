@@ -64,6 +64,11 @@ We will store our trained machine learning models and the predicted outputs alon
 
 ## Figure 2- Confusion Matrix of Decision Tree.
 
+![image](https://github.com/rahulsatoskar/Credit-Card-Transactions-Fraud-Detection/assets/96548287/7630fc20-9dd8-427e-9966-803a4bc8ac18)
+
+## Figure 2- ROC Curve of Decision Tree.
+
+
 
 
 
