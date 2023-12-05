@@ -45,9 +45,12 @@ The data is also accurate as the values in each of the respective columns are wh
 ## Data Transformation Models used
 
 We are fetching the Credit Card Transactions Fraud Detection Dataset in batch using the Kaggle API. For extracting data from Kaggle we need to use the Kaggle API credentials. Detailed steps for extracting data using the Kaggle API are explained in the link below.
+
 Link- https://technowhisp.com/kaggle-api-python-documentation/
 
+The raw data is extracted using the Kaggle API and loaded into the Data Lake which is an AWS S3 bucket. Next, we perform Exploratory Data Analysis (EDA) on the extracted data and perform data cleaning on the data in the Data lake which includes getting rid of irrelevant columns amongst others, and pushing it to the Data Warehouse.   
 
+Next, we perform featurization on the data in the Data Warehouse which includes one hot encoding for categorical features Standard scaling for numerical features, and feature extraction where we form new features from the existing features.  After this step, we train classification algorithms like Decision Trees, Random Forests, and XGBoost on our data after feature engineering. Finally, we use our trained machine learning models to make predictions on the test data and we can predict whether the transaction is fraudulent or genuine. From the predictions, we can see how well our machine learning models perform on the test data by using plots of the confusion matrix and ROC curve and performance metrics like Accuracy, Precision, Recall, F1 score, and AUC.
 
 
 
