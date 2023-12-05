@@ -60,7 +60,7 @@ Next, we perform featurization on the data in the Data Warehouse which includes 
 We will store our trained machine learning models and the predicted outputs along with predicted probability outputs as pickle files in the Amazon S3 buckets. We will download these pickle files into our local machine and do visualizations in our local machine as shown above in Jupyter notebooks, Pycharm, or any other suitable tool. The Project_code folder has a model_predict.ipynb file where we have plotted the confusion matrix and ROC curve and performance metrics like Accuracy, Precision, Recall, F1 score, and AUC of the machine learning models used as shown below.
 
 ![image](https://github.com/rahulsatoskar/Credit-Card-Transactions-Fraud-Detection/assets/96548287/93dd7d51-6464-4abc-b3c1-a61cd15863c6)
-
+## Figure- Confusion Matrix of Decision Tree.
 
 
 
