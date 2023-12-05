@@ -52,6 +52,10 @@ The raw data is extracted using the Kaggle API and loaded into the Data Lake whi
 
 Next, we perform featurization on the data in the Data Warehouse which includes one hot encoding for categorical features Standard scaling for numerical features, and feature extraction where we form new features from the existing features. As our data is highly imbalanced with fraudulent transactions being in the minority class and fraudulent transactions being in the majority class we use SMOTE which is an oversampling technique that generates synthetic samples from the minority class, After this step, we train classification algorithms like Decision Trees, Random Forests, and XGBoost on our data after feature engineering. Finally, we use our trained machine learning models to make predictions on the test data and we can predict whether the transaction is fraudulent or genuine. From the predictions, we can see how well our machine learning models perform on the test data by using plots of the confusion matrix and ROC curve and performance metrics like Accuracy, Precision, Recall, F1 score, and AUC.
 
+## Infographic
+
+![image](https://github.com/rahulsatoskar/Credit-Card-Transactions-Fraud-Detection/assets/96548287/65cabd8d-f2d9-4e1f-a527-fb251bbc5542)
+
 
 
 
