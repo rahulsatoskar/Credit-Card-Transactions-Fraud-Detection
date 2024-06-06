@@ -18,7 +18,7 @@ This project will use a simulated credit card transaction dataset using Sparkov 
 
 This project will use a simulated credit card transaction dataset containing legitimate and fraudulent transactions from the duration of 1st Jan 2019 to 31st Dec 2020. It covers the credit cards of 1000 customers doing transactions with a pool of 800 merchants.
 
-Link- https://www.kaggle.com/datasets/kartik2112/frauddetection
+Link- https://www.kaggle.com/datasets/kartik2112/fraud-detection/data
 
 This data was generated using Sparkov Data Generation
 GitHub tool created by Brandon Harris.
